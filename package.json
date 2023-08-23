@@ -21,5 +21,6 @@
     "moxios": "^0.4.0",
     "nodemon": "^1.18.11",
     "supertest": "^4.0.0"
-  }
+  },
+  "scripts": { "start": "node app.js" }
 }

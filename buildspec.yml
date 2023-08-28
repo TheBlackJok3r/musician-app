@@ -7,7 +7,7 @@ phases:
   build:
     commands:
       - echo "Building..."
-      - grep -Fq "Musician App" index.html
+      - grep -Fq "Musician App" ./public/index.html
   post_build:
     commands:
       - echo "Code built!"
